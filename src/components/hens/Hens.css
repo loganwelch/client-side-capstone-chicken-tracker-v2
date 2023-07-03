@@ -1,0 +1,73 @@
+body {
+    background-color: #f7a9a3;
+    /* Light coral */
+    color: #372248;
+    /* Dark purple */
+}
+
+.button {
+    background-color: #ff9770;
+    /* Salmon */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    /* Adjust the padding to make the buttons smaller */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /* Adjust the font size to match the smaller buttons */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* Tasteful shadow effect */
+}
+
+.square-hen-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+.hen-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    /* Adjust the width to fit three hens per row */
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #f9e4e0, #fcd3c2);
+}
+
+.hen-photo {
+    width: 100%;
+    height: 150px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.square-hen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Gradient for hen footer */
+.hen-footer {
+    display: flex;
+    color: #372248;
+    /* Set a specific color for the footer text */
+    background: linear-gradient(to right, #fcd3c2, #f9e4e0);
+}

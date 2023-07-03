@@ -1,0 +1,101 @@
+/* .hen-name {
+    font-size: 24px;
+}
+
+.page-container {
+    display: flex;
+    align-items: center;
+    color: #ff9770;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hen-details-photo-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hen-details-photo {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.henCard {
+    flex: 1 1 auto;
+} */
+.whole-page {}
+
+.centered-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    /* Adjust the height as needed */
+}
+
+.page-container {
+    display: flex;
+    align-items: flex-start;
+
+    /* Align items to the top */
+    color: #ff9770;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 650px;
+}
+
+.hen-details-photo-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    /* Adjust the margin as needed */
+    display: flex;
+    align-items: flex-start;
+    /* Align items to the top */
+}
+
+.hen-details-photo {
+    height: 400px;
+    /* Remove the height property */
+    width: auto;
+    max-height: 100%;
+    /* Add max-height property */
+    object-fit: contain;
+    /* Ensure the image fits within the container */
+}
+
+.henCard {
+    flex: 1 1 auto;
+    display: flex;
+    /* Add display property to enable flex layout */
+    flex-direction: column;
+    height: 400px;
+    /* Arrange elements vertically */
+    /* Add any additional styling for the henCard section */
+}
+
+.hen__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 650px;
+}
+
+.footer-button {
+    flex-grow: 1;
+    /* Allow the buttons to grow and fill the available space */
+    margin: 0 12px;
+    /* Adjust the margin as needed */
+    padding: 4px 9px;
+    /* Adjust the padding to make the buttons larger */
+    font-size: 16px;
+    /* Adjust the font size to make the buttons larger */
+    /* Add any additional styling for the buttons */
+    margin-top: 3px;
+}
+
+.hen__delete {
+    border: none;
+    font-size: 16px;
+}

@@ -1,0 +1,12 @@
+.form-control {
+    width: 200px;
+    /* Set the width as needed */
+    height: 200px;
+    /* Set the height as needed */
+    object-fit: cover;
+    /* Adjust the image sizing */
+    border: 1px solid #ccc;
+    /* Add border if desired */
+    border-radius: 5px;
+    /* Add border radius if desired */
+}

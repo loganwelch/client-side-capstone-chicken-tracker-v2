@@ -1,0 +1,14 @@
+.heading {
+    color: #372248;
+    /* Salmon */
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    color: #372248;
+    /* Dark purple */
+    font-size: 16px;
+    text-align: center;
+}
